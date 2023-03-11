@@ -11,7 +11,7 @@ if numero=="1":
 elif numero =="2":
     a= "C:\\Users\\JUAN JOSE F ROMERO\\Documents\\UNIANDES\\2023-01\\Analítica Comp\\Proyecto_1actd\\processed.cleveland_repaired.csv"
 else:
-    a=""
+    a="C:\\Users\\juanc\\Documents\\ANDES\\2023-1\\Analitica\\Proyecto\\Proyecto_1actd\\processed.cleveland_repaired.csv"
 data = pd.read_csv(a)
 print(data.head())
 
